@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Juego del Ahorcado</title>
+    <link rel="stylesheet" href="asserts/css/reset.css" />
+    <link rel="stylesheet" href="asserts/css/header.css" />
+    <link rel="stylesheet" href="asserts/css/app.css" />
+    <link rel="stylesheet" href="asserts/css/main.css" />
+    <link rel="stylesheet" href="asserts/css/teclado.css" />
+    <link rel="stylesheet" href="asserts/css/canvas.css" />
+    <link rel="stylesheet" href="asserts/css/interfase.css" />
+    <link rel="stylesheet" href="asserts/css/footer.css" />
+    <script type="text/javascript" src="asserts/js/listaPalabras.js"></script>
+    <script type="text/javascript" src="asserts/js/palabraSecreta.js"></script>
+    <script type="text/javascript" src="asserts/js/app.js"></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1 class="titulo">Ahorcado</h1>
+        <h2 class="subTitulo">Diccionario de animales</h2>
+      </div>
+    </header>
+    <main>
+      <audio src="asserts/music/John_Bartmann_-_15_-_West_in_Africa.mp3" autoplay>Music: https://www.chosic.com/free-music/all/</audio>
+      <audio id="audio__aplausos" src="asserts/music/Little Group Applause - QuickSounds.com.mp3"></audio> 
+      <section class="interfase">
+        <button class="boton" id="boton__iniciarJuego">INICIAR JUEGO</button>
+        <button class="boton" id="boton__reiniciarJuego">
+          REINICIAR JUEGO
+        </button>
+      </section>
+      <section class="area-juego">
+        <canvas class="canvas" width="1200" height="800"></canvas>
+      </section>
+      <section class="bolsaLetras">
+        <div class="teclado">
+          <div class="teclado__linea">
+            <button class="tecla">Q</button>
+            <button class="tecla">W</button>
+            <button class="tecla">E</button>
+            <button class="tecla">R</button>
+            <button class="tecla">T</button>
+            <button class="tecla">Y</button>
+            <button class="tecla">U</button>
+            <button class="tecla">I</button>
+            <button class="tecla">O</button>
+            <button class="tecla">P</button>
+          </div>
+          <div class="teclado__linea">
+            <button class="tecla">A</button>
+            <button class="tecla">S</button>
+            <button class="tecla">D</button>
+            <button class="tecla">F</button>
+            <button class="tecla">G</button>
+            <button class="tecla">H</button>
+            <button class="tecla">J</button>
+            <button class="tecla">K</button>
+            <button class="tecla">L</button>
+            <button class="tecla">Ñ</button>
+          </div>
+          <div class="teclado__linea">
+            <button class="tecla" style="visibility: hidden;"> </button>
+            <button class="tecla">Z</button>
+            <button class="tecla">X</button>
+            <button class="tecla">C</button>
+            <button class="tecla">V</button>
+            <button class="tecla">B</button>
+            <button class="tecla">N</button>
+            <button class="tecla">M</button>
+            <button class="tecla" style="visibility: hidden;"> </button>
+            <button class="tecla" style="visibility: hidden;"> </button>
+          </div>
+        </div>
+      </section>
+      <!-- <section class="diccionario">
+        <div class="palabra-secreta">- Palabra Secreta -</div>
+        <div style="text-align: center">
+          <input
+            class="text-input"
+            type="text"
+            id="input-nueva-palabra"
+            placeholder="Escriba una nueva palabra"
+          />
+          <button class="btn" id="nueva-palabra">AGREGAR PALABRA</button>
+        </div>
+      </section> -->
+      <footer>
+        <p>Autor: Burdet, Juan Manuel</p>
+        <p><a href="mailto:tecnopulsar@gmail.com">tecnopulsar@gmail.com</a></p>
+      </footer>
+    </main>
+  </body>
+</html>

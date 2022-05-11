@@ -1,0 +1,13 @@
+footer{
+  display: block;
+  height: 10vh;
+  margin: 10px 10px auto;
+  text-align: center;
+  background-color: rgba(39, 38, 49, 0.637);
+  color: white;
+}
+
+footer p a{
+  text-decoration: none;
+  color: white;
+}

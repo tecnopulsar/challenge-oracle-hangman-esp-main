@@ -1,0 +1,24 @@
+header{
+  position: relative;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+
+}
+header div{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+.titulo {
+  width: auto;
+  font-size:3rem;
+  font-weight: 700;
+}
+.subTitulo {
+  width: auto;
+  font-size:1rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}

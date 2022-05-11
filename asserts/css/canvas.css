@@ -1,0 +1,13 @@
+.area-juego{
+  display: flex;
+  justify-content: center;
+}
+.canvas{
+  display:block;
+  top: 15vh;
+  left: 5vw;
+  width: 100vw;
+  max-width: 800px;
+  height: 50vh;
+  max-height: 600px;
+}
